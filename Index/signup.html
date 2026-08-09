@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="signin.html">Sign In</a>
+        </nav>
+        <h1>Sign Up</h1>
+        <form action="index.html">
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="Enter your First Name" required>
+            <br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" placeholder="Enter your Last Name" required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your Email" required>
+            <br><br>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" required> <br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other <br><br>
+
+            <label for="country">Country</label>
+            <select name="country">
+                <option>Please Select your Country</option>
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>America</option>
+                <option>Nepal</option>
+                <option>Not listed</option>
+            </select> <br><br>
+
+            <label for="pass">Password</label>
+            <input type="password" placeholder="Enter your Password" required>
+            <br><br>
+
+            <label for="cpass">Confirm Password</label>
+            <input type="password" placeholder="Retype your Password" required>
+            <br><br>
+
+            <input type="submit" value="Sign Up">
+            <input type="reset">
+        </form>
+    </body>
+</html>
